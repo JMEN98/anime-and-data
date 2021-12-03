@@ -1,0 +1,55 @@
+[
+{
+  "title":"Jeff words",
+  "years":"2005-2012",
+  "genres":"Action ",
+  "maincharater":"Jeff"
+},
+{
+  "title":"Dragon Ball ",
+  "years":"1986-1998",
+  "genres":"Action ",
+  "maincharater":"Goku"
+},
+
+{
+  "title":"Bleach ",
+  "years":"2004-2012",
+  "genres":"Action ",
+  "maincharater":"ichigo"
+},
+{
+  "title":"Yu Gi Oh! Duel Monsters",
+  "years":"2005-2012",
+  "genres":"Cards",
+  "maincharater":"Yugi Muto-Yami Yugi"
+
+},
+{
+  "title":"Haikyuu!!",
+  "years":"2014-ongoing",
+  "genres":"Sports",
+  "maincharater":"Shoyo Hinata"
+  
+},
+{
+"title":"Tensei Shitara Slime Datta Ken",
+"years":"2018-ongiong",
+"genres":"Fantasy",
+"maincharater":"Rimuru Tempest "
+},
+{
+"title":"Dororo",
+"years":"2018",
+"genres":"Dark fantasy",
+"maincharater":"Hyakkimaru"
+
+},
+
+{
+"title":"rising of the shield hero",
+"years":"2019-ongoing",
+"genres":"Fantasy",
+"maincharater":"Naofumi Iwatani"
+}
+]
