@@ -14,7 +14,7 @@ const createError = require('http-errors')
 mongoose.connect(keys.database.url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useFindAndgiModify: false,
+  useFindAndModify: false,
   useCreateIndex: true,
 })
 
