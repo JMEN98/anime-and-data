@@ -9,7 +9,7 @@ router.get('/', (req, res, next) => {
 
 })
 
-router.get('/album',  async (req, res, next) => {
+router.get('/anime',  async (req, res, next) => {
   let anime = await Anime.find({}).sort({ title:1}).exec();
  
  
