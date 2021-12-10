@@ -6,7 +6,7 @@ import logger from 'morgan'
 import cors from 'cors'
 import mongoose from 'mongoose'
 import keys from './config/keys'
-import router from './routes'
+import router from './routes/anime'
 import { requestLogger, errorHandler } from './middleware'
 
 const createError = require('http-errors')

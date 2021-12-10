@@ -1,1 +1,1 @@
-export  {default as Anime} from'./user'
+export  {default as Anime} from'./anime'

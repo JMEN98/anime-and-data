@@ -1,6 +1,5 @@
-import react, { useEffect, useState } from "react";
-import { useApiFetch } from "../util/api";
-import axios from 'axios';
+import  { useEffect, useState } from "react";
+
 
 //import Anime from "../Anime.json"
 

@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const { ObjectId } = mongoose.Schema.Types;
+const  { ObjectId } = mongoose.Schema.Types;
 
 const animeSchema = new mongoose.Schema({
   title: {
@@ -21,6 +21,6 @@ const animeSchema = new mongoose.Schema({
   }
 });
 
-const Anime = mongoose.model("Album", animeSchema);
+const Anime = mongoose.model("Anime", animeSchema);
 
 export default Anime;
