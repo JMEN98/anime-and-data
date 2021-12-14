@@ -19,7 +19,7 @@ mongoose.connect(keys.database.url, {
 })
 
 mongoose.connection.on('connected', () => {
-  console.log('connected to mongoDB')
+  console.log('connected to ')
 })
 
 mongoose.connection.on('error', (err) => {
