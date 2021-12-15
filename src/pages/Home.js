@@ -4,7 +4,7 @@ import  { useEffect, useState } from "react";
 //import Anime from "../Anime.json"
 
  function Home (){
-  const [Anime,SetAnime]=useState([])
+  const [Anime,SetAnime]=useState()
 
  
   useEffect(function(){
@@ -22,7 +22,7 @@ import  { useEffect, useState } from "react";
 
    return(
     <div>
-      {Anime.map((anime,i)=>(
+      {Anime&&Anime.map(...(anime,i)=>(
          <div key={i}> 
          <h1>
          {anime.title}
