@@ -11,7 +11,7 @@ import { requestLogger, errorHandler } from './middleware'
 
 const createError = require('http-errors')
 
-mongoose.connect(keys.database.url, {
+mongoose.connect(keys.url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,

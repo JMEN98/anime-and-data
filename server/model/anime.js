@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const  { ObjectId } = mongoose.Schema.Types;
 
-const animeSchema = new mongoose.Schema({
+const animeSchema = new .Schema({
   title: {
     type: String,
     unique: true,
