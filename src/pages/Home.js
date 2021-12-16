@@ -4,13 +4,13 @@ import  { useEffect, useState } from "react";
 //import Anime from "../Anime.json"
 
  function Home (){
-  const [Anime,SetAnime]=useState()
+  const [Anime,setAnime] = useState()
 
  
   useEffect(function(){
     fetch("http://localhost:3000/api/anime")
          .then(response=>response.json()).then(data=>{
-           SetAnime(data)
+           setAnime(data)
            console.log(data) 
            
          })
