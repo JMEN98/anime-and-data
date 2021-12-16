@@ -22,7 +22,7 @@ import  { useEffect, useState } from "react";
 
    return(
     <div>
-      {Anime&&Anime.map(...(anime,i)=>(
+      {Anime&&Anime.map((anime,i)=>(
          <div key={i}> 
          <h1>
          {anime.title}
